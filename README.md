@@ -16,7 +16,7 @@ To install this extension, follow these steps:
 
 ## Copying Place ID for Detailed Information
 
-![Copy Button](https://github.com/CodeWithDennis/google-place-display-extension/assets/23448484/c38ec459-bd52-413b-889a-528cabf83679)
+![Copy Button](https://github.com/CodeWithDennis/google-place-display-extension/assets/23448484/efc54545-df8c-42ca-9291-be2f7abab0a3)
 
 To copy the Place ID for further use in obtaining detailed information about a specific location, follow these steps:
 
