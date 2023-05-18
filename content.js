@@ -28,31 +28,22 @@ let firstElement = document.querySelector("#kp-wp-tab-overview");
 let newDiv = document.createElement("div");
 
 // Set the margin CSS property of the <div> element
-newDiv.style.padding = "9px";
-newDiv.style.background = "rgb(253, 246, 246)";
-newDiv.style.color = "#222222";
-newDiv.style.textAlign = "center";
-newDiv.style.borderBottom = "1px solid #dadce0";
+newDiv.style.padding = "0px 15px";
+newDiv.style.marginTop = "10px";
+// newDiv.style.background = "rgb(253, 246, 246)";
+// newDiv.style.color = "#222222";
+// newDiv.style.textAlign = "center";
+// newDiv.style.borderBottom = "1px solid #dadce0";
 
 // Create a new <button> element
-let copyButton = document.createElement("button");
+let copyButton = document.createElement("span");
 
 // Set the content and style of the <button> element
-copyButton.innerHTML = place;
-copyButton.style.cursor = "pointer";
-copyButton.classList.add("ab_button"); // Add the 'ab_button' class
+copyButton.innerHTML = "<b>Place ID:</b> <a href='#'>" + place + "</a>";
 
 // Add a click event listener to the copy button
 copyButton.addEventListener("click", function () {
     copyToClipboard(place);
-    copyButton.innerHTML = "Copied!"; // Update button text to "Copied"
-    copyButton.disabled = true; // Disable the button temporarily
-
-    // Reset button text and enable after 2 seconds
-    setTimeout(function () {
-        copyButton.innerHTML = place;
-        copyButton.disabled = false;
-    }, 2000);
 });
 
 // Append the copy button to the <div> element
@@ -77,5 +68,5 @@ function copyToClipboard(text) {
 if (place) {
     // Send a message to the background script or event page
     // indicating that a valid Place ID was found
-    chrome.runtime.sendMessage({ place: '1' });
+    chrome.runtime.sendMessage({place: '1'});
 }
