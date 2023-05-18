@@ -1,6 +1,6 @@
 # Google Place Display Extension
 
-The Google Place ID Sidebar add-on enhances your Google Search experience by conveniently displaying the Place IDs of companies you search for in the sidebar.
+The Google Place ID Sidebar add-on is primarily designed for developers to enhance their Google Search experience. It provides the convenience of displaying the Place IDs of companies you search for in the sidebar.
 
 ## Installation
 
