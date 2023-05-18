@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Google Place ID Display",
   "version": "1.0",
-  "description": "Effortlessly display the Google Place ID in the sidebar of the company you're currently viewing on Google Search.",
+  "description": "The Google Place ID Sidebar add-on enhances your Google Search experience by conveniently displaying the Place IDs of companies you search for in the sidebar.",
   "background": {
     "service_worker": "background.js"
   },
