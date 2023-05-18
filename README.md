@@ -16,9 +16,10 @@ To install this extension, follow these steps:
 
 ## Copying Place ID for Detailed Information
 
-![Copy Button](https://github.com/CodeWithDennis/google-place-display-extension/assets/23448484/efc54545-df8c-42ca-9291-be2f7abab0a3)
+<img width="954" alt="Place ID" src="https://github.com/CodeWithDennis/google-place-display-extension/assets/23448484/05e3585c-0205-4234-b906-40de700ca1b9">
 
-To copy the Place ID for further use in obtaining detailed information about a specific location, follow these steps:
+
+## To copy the Place ID for further use in obtaining detailed information about a specific location, follow these steps:
 
 1. Perform a Google search for the desired company or location.
 2. In the sidebar, you will find the Place ID displayed next to the company's information.
