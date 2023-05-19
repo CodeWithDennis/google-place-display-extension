@@ -30,10 +30,6 @@ let newDiv = document.createElement("div");
 // Set the margin CSS property of the <div> element
 newDiv.style.padding = "0px 15px";
 newDiv.style.marginTop = "10px";
-// newDiv.style.background = "rgb(253, 246, 246)";
-// newDiv.style.color = "#222222";
-// newDiv.style.textAlign = "center";
-// newDiv.style.borderBottom = "1px solid #dadce0";
 
 // Create a new <button> element
 let copyButton = document.createElement("span");
@@ -62,11 +58,4 @@ function copyToClipboard(text) {
     input.select();
     document.execCommand("copy");
     document.body.removeChild(input);
-}
-
-// Check if a valid Place ID was found
-if (place) {
-    // Send a message to the background script or event page
-    // indicating that a valid Place ID was found
-    chrome.runtime.sendMessage({place: '1'});
 }
