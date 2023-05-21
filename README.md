@@ -4,15 +4,17 @@ The Google Place ID Sidebar add-on is primarily designed for developers to enhan
 
 ## Installation
 
-To install this extension, follow these steps:
+To install this Google extension, please follow the steps below:
 
-1. Clone or download this repository to your local machine.
-2. Ensure you have Google Chrome installed on your computer.
-3. Open Google Chrome and navigate to `chrome://extensions` in the address bar.
-4. Enable "Developer mode" by toggling the switch in the top-right corner of the page.
-5. Click on the "Load unpacked" button in the top-left corner of the page.
-6. In the file dialog that appears, navigate to the directory where you cloned or downloaded this repository and select it.
-7. Click the "Select Folder" button to load the extension.
+1. Open your **Google Chrome** browser.
+2. Navigate to the following page: [Google Place Display on Chrome Web Store](https://chrome.google.com/webstore/detail/google-place-id-display/lajmnonjjncieddbhlkenkaeidehamao/related?hl=nl&authuser=0)
+3. You will be directed to the Google Chrome Web Store page for the "Google Place ID Display" extension.
+4. On the extension's page, click on the "Add to Chrome" button located on the top right corner of the page.
+5. A confirmation dialog will appear. Click on the "Add extension" button to proceed with the installation.
+6. Google Chrome will start downloading and installing the extension.
+7. Once the installation is complete, you will see a notification confirming that the "Google Place ID Display" extension has been added to your browser.
+8. The extension icon should appear in the top-right corner of your browser's toolbar.
+9. You have successfully installed the "Google Place ID Display" extension. You can now start using it to display Google Place IDs.
 
 ## Copying Place ID for Detailed Information
 
